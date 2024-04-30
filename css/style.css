@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	color: #ededed;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	background-color: #1f1e1e;
+	transition: background-color 0.3s ease;
+}
+
+.header.active {
+	display: flow;
+    background-color: #363434; /* Change background color when active */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+
+.logo{
+	font-size: 25px;
+	color: #ededed;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+/*.navbar a{
+	font-size: 18px;
+	color: #ededed;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 20px;
+	transition: .3s;
+	scroll-behavior: smooth;
+}
+
+.navbar a:hover,
+.navbar a.active{
+	color: #00abf0;
+}*/
+
+.checkbtn{
+	position: fixed;
+	font-size: 30px;
+	color: white;
+	right: 0;
+	line-height: 80px;
+	margin-right: 10%;
+	cursor: pointer;
+	display: none;
+}
+
+
+#check{
+	display: none;
+}
+
+.header-bar{
+	position: relative;
+	height: 100vh;
+    display: none;
+    align-items: stretch;
+    text-align: center;
+    padding: 0 10%;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 24px;
+    background-color: #4caed9;
+    z-index: 1000;
+}
+
+.header-bar a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #ededed;
+	font-size: 1rem;
+}
+
+a:hover{
+	color: #00abf0;
+}
+
+header{
+	position: relative;
+	padding: 0 2rem;
+}
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.navbar .links{
+	display: flex;
+	gap: 2rem;
+}
+
+.navbar .toggle_btn{
+	color: white;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: none;
+}
+
+.action_btn{
+	background-color: orange;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.dropdown_menu{
+	position: absolute;
+	right: 2rem;
+	top: 60px;
+	height: 0;
+	width: 300px;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+	height: 240px;
+}
+
+.dropdown_menu li{
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*-----------------------------------------------------HEADER-----------------------------------------------------*/
+
+.home{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+	background-color: #1f1e1e;
+	transition: .3s;
+	z-index: 1;
+}
+
+.home-content{
+	max-width: 600px;
+	z-index: 99;
+}
+
+.home-content h1{
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.home-content h3{
+	font-size: 32px;
+	font-weight: 700;
+	color: #00abf0 ;
+}
+
+.home-content p{
+	font-size: 16px;
+	margin: 20px 0 40px;
+}
+
+.home-content a{
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 50px;
+	background-color: transparent;
+	color: #00abf0;
+	border: 2px solid #00abf0;
+	border-radius: 8px;
+	font-size: 19px;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	z-index: 1;
+	overflow: hidden;
+	transition: .5s;
+}
+
+.home-content a:hover{
+	color: white;
+}
+
+.home-content a::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #00abf0;
+	z-index: -1;
+	transition: .5s;
+}
+
+.home-content a:hover::before{
+	width: 100%;
+}
+
+.sections{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	padding: 0 10%;
+	font-size: 35px;
+	z-index: 1;
+	font-weight: 700;
+}
+
+
+.section-title{
+	color: black;
+	margin-top: 5%;
+	align-items: center;
+}
+
+
+.footer{
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+	background-color: #47494d;
+}

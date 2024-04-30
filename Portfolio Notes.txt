@@ -1,0 +1,50 @@
+
+1. **Header Section:**
+   - Include your full name.
+   - Your profession or job title (e.g., Graphic Designer, Software Developer, Writer).
+   - Contact information (email address and optionally phone number).
+
+2. **Introduction:**
+   - Write a brief introduction about yourself, highlighting your passion, skills, and what you bring to the table.
+   - Keep it concise, around 2-3 sentences.
+
+3. **Skills Section:**
+   - List your key skills relevant to your profession.
+   - You can organize them in a bullet-point format or use a simple bar graph to indicate proficiency levels.
+
+4. **Portfolio Projects:**
+   - Showcase 3-5 of your best projects or works.
+   - For each project, include a title, a brief description, and if possible, a thumbnail image or a link to view more details.
+   - Highlight any notable achievements or outcomes related to each project.
+
+5. **Education:**
+   - List your educational background, including degrees, certifications, and relevant courses.
+   - Optionally, mention any honors or awards.
+
+6. **Experience (if applicable):**
+   - Summarize your work experience, focusing on roles relevant to your portfolio.
+   - Mention the company or organization, your job title, and the duration of your employment.
+
+7. **Testimonials or Recommendations (optional):**
+   - If you have received positive feedback from clients or colleagues, include short testimonials or recommendations.
+
+8. **Contact Information:**
+   - Reiterate your contact details at the bottom of the page for easy reference.
+
+9. **Design and Layout:**
+   - Keep the design clean, professional, and visually appealing.
+   - Use whitespace effectively to make the content easy to read and navigate.
+   - Choose a consistent color scheme and typography that aligns with your personal brand.
+
+10. **Proofread:**
+    - Before finalizing your portfolio, proofread the content to ensure there are no typos or grammatical errors.
+
+Remember, the goal of your one-page portfolio is to provide a snapshot of your skills and achievements quickly and effectively. Keep it focused on your best work and most relevant information. Good luck! If you need further assistance or have any questions, feel free to ask!
+
+
+
+The sizes for your wireframes and mockups are as follows: 
+• Mobile: 360 x 720
+• Tablet: 768 x 1024
+• Laptop: 1366 x 768
+• Dekstop: 1920 x 1080
